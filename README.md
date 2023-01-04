@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install osTicket
 
 <h2>Installation Steps</h2>
-![image](https://user-images.githubusercontent.com/117492330/210660362-b634bb90-5dbb-489a-92e6-f530783c9ca3.png)<img src=![image](https://user-images.githubusercontent.com/117492330/210660131-2c99e7d9-1a2d-44e4-aaea-5e04420e10f9.png)
+
 
   Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services". IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 </p>
