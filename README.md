@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-
+<img src=
   Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services". IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 </p>
 <br />
@@ -51,3 +51,18 @@ Search the internet for "osTicket-v1.15.8" and download it. Next, copy the "uplo
 
 </p>
 <br />
+Search and open "IIS program" again via windows search bar. Next, restart IIS server client for changes to take effect.
+After IIS restart --> select "OsTicket" within IIS under "Default Website" --> click Browse*:80.
+
+If you have installed all prerequisites and followed all steps up to this point correctly, then the OS Ticketing system should open in the browser after the "browser*:80 port" is clicked in the previous step.
+
+Click the "PHP Manager" option in ISS (If the option does not show then restart ISS) --> "Enable or disable an extension" --> enable the following extensins: "php_imap.dll, php_intl.dll, php_opcahe.dll" --> refresh OsTicket in the browser window.
+
+Rename "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php" --> Assign permissions: under security tab --> click advanced --> disable inheritance: remove all inheritance --> allow all permisions: click "add", select a "principal", enter "everyone" in object name field --> allow full control permissions. This will allow full control for everyone.
+
+After all previous steps are complete, the OsTicketing system should be fully functional and you should be allowed to create acual helpdesk tickets. Please see test ticket above. You have to fill out most, if not all, of the information for this setup. *The email address must be different for the system settings and the admin user to not create conflict.
+
+Install a program called "HeidiSQl" (can be searched online) that OsTicketing System uses to connect with Databases. Create a new "database" to be used with the new ticketing setup titled "OsTicket". Now, finish filling out the information in the OsTicket browser (MySQL will be the new database's name) and use whichever username and password that you created earlier in the lab.
+
+You should see a congratulations screen in the browser window if everything was done correctly. Clients are now able to successfully create help desk tickets. That concludes the lab.
+
