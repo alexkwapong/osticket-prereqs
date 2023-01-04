@@ -32,8 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://user-images.githubusercontent.com/117492330/210655234-1eea1ea2-f354-4449-8d25-4eec51bc44bf.png)<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-</p>
-<p>
+![image](https://user-images.githubusercontent.com/117492330/210655501-9b45d8f0-4406-47b6-8d63-0a3e91f4f598.png)<p>
 Install/Enable Internet "Internet Information Services" (IIS) in windows: control panel --> programs --> Turn Windows features on or off --> check box titled "Internet Information Services". IIS is a windows server in which OsTicket requires to be enabled in order to run properly, even though OsTicket runs through the web browser.
 </p>
 <br />
