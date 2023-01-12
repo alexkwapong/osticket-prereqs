@@ -45,7 +45,7 @@ Search the internet for the installation files you will need to insatll. Find an
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/IUzIAuE.png
 </p>
 <p>
 Search the internet for "osTicket-v1.15.8" and download it. Next, copy the "upload folder" from inside the OsTicket installation files to "c:\inetpub\wwwroot". Within c:\inetput\wwwroot folder --> rename "upload folder" to "OsTicket" --> Open IIS--> osTicket--> Browse*80 --> restart IIS
